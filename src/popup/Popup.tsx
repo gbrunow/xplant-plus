@@ -19,7 +19,7 @@ export default class Popup extends React.Component<AppProps, AppState> {
     render() {
         return (
             <div className="popupContainer">
-                Hello, world!!!
+                More features coming soon!
             </div>
         )
     }
