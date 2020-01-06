@@ -1,4 +1,12 @@
-.test {
-    background: green;
-    border: 1px solid black;
+.itemTd:not(.ships-overseas) {
+    opacity: 0.25 !important;
+}
+
+.itemTd:not(.ships-overseas):hover {
+    opacity: 1 !important;
+}
+
+.itemTd:not(.checked),
+.itemTd:not(.checked) * {
+    cursor: progress;
 }
