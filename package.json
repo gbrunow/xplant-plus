@@ -6,7 +6,10 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack -w --config webpack.dev.js",
-    "lint": "tslint 'src/**/*.{ts, tsx}'"
+    "lint": "tslint 'src/**/*.{ts, tsx}'",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "prewatch": "npm run clean"
   },
   "author": "Joe Martella",
   "license": "MIT",
